@@ -2,8 +2,8 @@
 
 **A full-stack financial wellness platform designed to be the "financial nervous system" for India's gig economy workers, featuring a web dashboard and a companion WhatsApp bot.**
 
-![GigCoach AI Dashboard Screenshot](<img width="1918" height="959" alt="1" src="https://github.com/user-attachments/assets/03a85451-521a-4c7b-8581-d210953fdbc2" />
-) 
+![GigCoach AI Dashboard Screenshot](./assets/1.png) 
+
 *This is a placeholder image. You should take a beautiful screenshot of your final dashboard and replace this link!*
 
 ---
