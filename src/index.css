@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body { margin: 0; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.dashboard-container{display:flex;background-color:#f7f8fc;min-height:100vh;color:#111827}
+.main-content{flex-grow:1;padding:32px; overflow-y: auto;}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px}
+.header h1{font-size:32px;font-weight:700}
+.header h2{font-size:18px;font-weight:500;color:#6b7280}
+.sidebar{width:260px;background-color:#fff;border-right:1px solid #e5e7eb;padding:24px;display:flex;flex-direction:column;flex-shrink:0}
+.sidebar-header{font-size:24px;font-weight:700;color:#4f46e5;margin-bottom:40px;text-align:center}
+.sidebar-nav a{color:#374151;text-decoration:none;display:flex;align-items:center;padding:12px 16px;border-radius:8px;margin-bottom:8px;font-size:16px;font-weight:500;transition:background-color .2s,color .2s}
+.sidebar-nav a:hover,.sidebar-nav a.active{background-color:#eef2ff;color:#4f46e5}
+.sidebar .whatsapp-button{background-color:#25D366;color:#fff!important;text-align:center;justify-content:center;font-weight:500;text-decoration:none;display:flex;align-items:center;padding:12px 16px;border-radius:8px;font-size:16px}
+.sidebar .logout-button{margin-top:10px;display:flex;align-items:center;padding:12px 16px;text-decoration:none;color:#374151;border-radius:8px;font-size:16px;font-weight:500;width:100%;background:none;border:none;cursor:pointer}
+.sidebar .logout-button:hover{background-color:#f3f4f6}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:32px}
+.stat-card{background-color:#fff;padding:24px;border-radius:12px;border:1px solid #e5e7eb}
+.chart-container{background-color:#fff;padding:24px;border-radius:12px;border:1px solid #e5e7eb;height:400px;position:relative}
+.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;z-index:1000}
+.modal-content{background:#fff;padding:24px;border-radius:12px;width:100%;max-width:500px;box-shadow:0 5px 15px rgba(0,0,0,.3)}
+.modal-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-bottom:16px;margin-bottom:16px}
+.modal-header h2{margin:0;font-size:20px}
+.modal-close-button{background:0 0;border:none;font-size:28px;cursor:pointer;color:#6b7280}
+.modal-body .form-group{margin-bottom:16px}
+.modal-body label{display:block;margin-bottom:8px;font-weight:500;color:#374151}
+.modal-body input{width:100%;padding:10px;border-radius:6px;border:1px solid #d1d5db;box-sizing:border-box}
+.modal-body .form-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:24px}
+.modal-body button{padding:10px 20px;border:none;border-radius:6px;cursor:pointer;font-weight:500}
+.btn-primary{background-color:#4f46e5;color:#fff}
+.btn-secondary{background-color:#e5e7eb;color:#374151}
