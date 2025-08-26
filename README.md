@@ -2,9 +2,19 @@
 
 **A full-stack financial wellness platform designed to be the "financial nervous system" for India's gig economy workers, featuring a web dashboard and a companion WhatsApp bot.**
 
-![GigCoach AI Dashboard Screenshot](./assets/1.png) 
+<p align="center">
+  <img src="./assets/1.png" width="300" />
+  <img src="./assets/2.png" width="300" />
+  <img src="./assets/3.png" width="300" />
+</p>
 
-*This is a placeholder image. You should take a beautiful screenshot of your final dashboard and replace this link!*
+<p align="center">
+  <img src="./assets/4.png" width="300" />
+  <img src="./assets/5.png" width="300" />
+  <img src="./assets/6.png" width="300" />
+</p>
+
+
 
 ---
 
@@ -53,62 +63,4 @@ GigCoach AI is not just another app; it's a proactive financial coach that integ
 
 ### 🔗 Backend Repository
 The backend server and API code for this project can be found here:
-**[https://github.com/YourUsername/gigcoach-ai](https://github.com/YourUsername/gigcoach-ai)** ```
-
-### **2. For Your Backend Repository (`gigcoach-ai`)**
-
-This README is more technical. It's for developers or judges who want to understand your server's architecture.
-
-1.  In your **`gigcoach-ai`** project folder, create a new file named `README.md`.
-2.  Paste the following template into it.
-
-```markdown
-# GigCoach AI - Backend Server & API
-
-This repository contains the Node.js backend server, API, and WhatsApp bot integration for the GigCoach AI platform.
-
----
-
-### ✨ Features
-
-* RESTful API for managing users, earnings, expenses, goals, and loans.
-* Secure authentication using JWT and OTPs.
-* PostgreSQL database integration.
-* Twilio integration for the WhatsApp chatbot and OTP delivery.
-* Rule-based "AI" engine for generating financial insights and tax estimations.
-
----
-
-### 💻 Tech Stack
-
-* **Framework:** Node.js, Express.js
-* **Database:** PostgreSQL
-* **Authentication:** JSON Web Tokens (JWT)
-* **WhatsApp:** Twilio API
-* **Forecasting:** Python, Prophet (via a separate script)
-
----
-
-### API Endpoints
-
-A summary of the main API routes:
-
-* `POST /api/auth/login` - Request an OTP for a phone number.
-* `POST /api/auth/verify` - Verify OTP and receive a JWT.
-* `GET /api/dashboard-stats/:phone_number` - Get all key stats for the main dashboard.
-* `GET, POST /api/earnings` - Manage user earnings.
-* `GET, POST, PUT, DELETE /api/goals` - Full CRUD for financial goals.
-* `GET, POST /api/expenses` - Manage user expenses.
-* `GET /api/loans/:phone_number` - Calculate GigScore and get loan eligibility.
-* `GET /api/tax-estimate/:phone_number` - Get a simplified tax estimation.
-* `POST /webhook` - Endpoint for the Twilio WhatsApp bot.
-
----
-
-### Local Setup
-
-1.  Clone the repository.
-2.  Set up a local PostgreSQL database.
-3.  Run `npm install`.
-4.  Create a `.env` file with your database credentials, JWT secret, and Twilio keys.
-5.  Run `nodemon app.js`.
+**[https://github.com/YourUsername/gigcoach-ai](https://github.com/Ayushkr-iitm/gigcoach-ai)** ```
