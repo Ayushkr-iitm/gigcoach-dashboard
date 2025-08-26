@@ -4,13 +4,13 @@
 
 <p align="center">
   <img src="./assets/1.png" width="300" alt="Dashboard Overview">
-  <img src="./assets/2.png" width="300" alt="WhatsApp Chat Interface">
+  <img src="./assets/2 .png" width="300" alt="WhatsApp Chat Interface">
   <img src="./assets/3.png" width="300" alt="Income Insights Graph">
 </p>
 <p align="center">
   <img src="./assets/4.png" width="300" alt="Expense Tracking Feature">
   <img src="./assets/5.png" width="300" alt="Goal Setting Page">
-  <img src="./assets/6.png" width="300" alt="Financial Health Score">
+  <img src="./assets/6 .png" width="300" alt="Financial Health Score">
 </p>
 
 
