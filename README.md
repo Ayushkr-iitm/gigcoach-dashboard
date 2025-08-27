@@ -61,4 +61,4 @@ GigCoach AI is not just another app; it's a proactive financial coach that integ
 
 ### 🔗 Backend Repository
 The backend server and API code for this project can be found here:
-**[https://github.com/YourUsername/gigcoach-ai](https://github.com/Ayushkr-iitm/gigcoach-ai)** ```
+**[gigcoach-ai](https://github.com/Ayushkr-iitm/gigcoach-ai)** ```
